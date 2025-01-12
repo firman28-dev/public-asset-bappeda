@@ -1,0 +1,188 @@
+@charset "UTF-8";
+:root {
+  --custom-black: #272727;
+  --custom-black-200: #2e3a40;
+  --custom-blue: #00a3e9;
+  --custom-blue-700: #335ca7;
+  --custom-blue-tosca: #85cede;
+  --custom-gray: #68748b;
+  --custom-white: #fff;
+  --bs-font-geologica: "Geologica", sans-serif;
+  --bs-font-poppins: "Poppins", sans-serif;
+  --custom-bg-primary: #f3f6fa;
+  --custom-orange: #FF6800;
+  --custom-secondary: #F5F4F3;
+  --custom-purple: #AB4459;
+
+
+
+}
+
+body {
+  font-family: var(--bs-font-geologica);
+  background-color: var(--custom-white);
+}
+
+.bg-error{
+  background-image: url('../media/bg1.jpg');
+  background-size: cover;
+}
+
+.bg-login{
+  background-color: #A5DD9B;
+}
+
+/* Card */
+.card-custom {
+  box-shadow: 2px 1px 48px 0px rgba(0, 163, 233, 0.16);
+  border-radius: 16px;
+}
+
+
+
+
+.text-custom-warning{
+  color: var(--custom-orange)!important;
+}
+
+.text-custom-primary{
+  color: #3184C2 !important;
+}
+
+
+.bg-document-public{
+  background-color: var(--custom-secondary)!important;
+}
+.bg-about{
+  background-color: var(--custom-orange)!important;
+}
+.bg-orange{
+  background-color: var(--custom-orange)!important;
+}
+.bg-purple{
+  background-color: var(--custom-purple)!important;
+}
+
+.bg-footer{
+  background-color: #F8F8F8 !important;
+}
+
+.bg-backdrop {
+  -webkit-backdrop-filter: saturate(180%) blur(32px);
+  backdrop-filter: saturate(180%) blur(32px);
+  background-color: rgba(255, 255, 255, 0.85);
+  -webkit-transition: background-color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
+  transition: background-color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
+  -webkit-transition-property: background-color, -webkit-backdrop-filter;
+  transition-property: background-color, -webkit-backdrop-filter;
+  transition-property: background-color, backdrop-filter;
+  transition-property: background-color, backdrop-filter,
+    -webkit-backdrop-filter;
+}
+
+.rounded-custom{
+  border-radius: 30px !important;
+}
+
+.rounded-custom2{
+  border-radius: 16px !important;
+}
+
+.curve-bg{
+  background-image: url("/assets/img/bg-sumbar.jpg"); 
+  background-size: cover; 
+  background-position: center; 
+  width: 100vw; 
+  height: 80vh; 
+  border-bottom-left-radius: 48px; 
+  border-bottom-right-radius: 48px; 
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .curve-bg {
+    height: 60vh; 
+    border-bottom-left-radius: 36px;
+    border-bottom-right-radius: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .curve-bg {
+    height: 50vh;
+    border-bottom-left-radius: 24px; 
+    border-bottom-right-radius: 24px;
+  }
+} */
+
+/* .curve-bg {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  clip-path: polygon(0 0, 100% 0, 100% 1000%, 0 100%);
+  overflow: hidden;
+}
+
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+/* tukar */
+
+/* 
+.curve-bg {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.svg-curve {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
+
+@media (max-width: 768px) {
+  .curve-bg {
+    height: 60vh; 
+    border-bottom-left-radius: 36px;
+    border-bottom-right-radius: 36px;
+  }
+  .video-bg {
+    height: 50vh;
+    position: relative;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 480px) {
+  .curve-bg {
+    height: 50vh;
+    border-bottom-left-radius: 24px; 
+    border-bottom-right-radius: 24px;
+  }
+  .video-bg {
+    height: 50vh;
+    position: relative;
+    object-fit: cover;
+  }
+} */
+
