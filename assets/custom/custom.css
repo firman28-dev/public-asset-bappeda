@@ -28,6 +28,11 @@ body {
   background-size: cover;
 }
 
+.bg-error-2{
+  background-image: url('../media/bg4.jpg');
+  background-size: cover;
+}
+
 .bg-login{
   background-color: #A5DD9B;
 }
@@ -36,6 +41,10 @@ body {
 .card-custom {
   box-shadow: 2px 1px 48px 0px rgba(0, 163, 233, 0.16);
   border-radius: 16px;
+}
+
+.bg-custom-secondary{
+  background-color: var(--custom-secondary);
 }
 
 
@@ -58,6 +67,9 @@ body {
 }
 .bg-orange{
   background-color: var(--custom-orange)!important;
+}
+.text-orange{
+  color: var(--custom-orange)!important;
 }
 .bg-purple{
   background-color: var(--custom-purple)!important;
@@ -113,7 +125,7 @@ body {
     border-bottom-left-radius: 24px; 
     border-bottom-right-radius: 24px;
   }
-} */
+}  
 
 /* .curve-bg {
   position: relative;
@@ -133,11 +145,11 @@ video {
 
 /* tukar */
 
-/* 
-.curve-bg {
+
+/* .curve-bg {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   overflow: hidden;
 }
 
@@ -146,7 +158,7 @@ video {
   top: 0;
   left: 0;
   width: 100%;
-  height: 90%;
+  height: 95%;
   object-fit: cover;
   z-index: 1;
 }
@@ -156,8 +168,8 @@ video {
   bottom: 0;
   width: 100%;
   height: auto;
-  z-index: 2;
-}
+  z-index: 1;
+} */
 
 
 @media (max-width: 768px) {
@@ -184,5 +196,64 @@ video {
     position: relative;
     object-fit: cover;
   }
-} */
+}
 
+.img-hover-zoom {
+  transition: transform 0.5s ease;
+}
+
+.img-hover-zoom:hover {
+  transform: scale(1.05);
+}
+
+.page-content ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.page-content ul li::before {
+  content: "✔️ ";
+  color: #6f42c1;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.text-custom{
+  line-height: 1.8; 
+  font-size: 1.05rem;
+}
+
+.bg-content-page {
+  background-image: url('https://demo-egenslab.b-cdn.net/html/jobes/preview/assets/images/bg/breadcrumb-bg.png');
+  background-image: url('../media/abstract-grainy-texture-background.jpg');
+
+  ../media/bg1.jpg
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+}
+
+.bg-content-page h1 {
+  position: relative;
+  z-index: 1;
+}
+
+.span-custom{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background: #00f2fe;
+  bottom: 0;
+  left: 0;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #00f2fe;"
+}
+
+.rounded-custom{
+  border-radius: 15px;
+}
+
+.
